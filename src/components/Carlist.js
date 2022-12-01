@@ -50,7 +50,7 @@ function Carlist() {
   };
 
   const updateCar = (updateCar, link) => {
-    console.log(" UPDATE FUNKTIO");
+    console.log("UPDATE FUNKTIO");
     fetch(link, {
       method: "PUT",
       headers: { "Content-Type": "application/json" },
